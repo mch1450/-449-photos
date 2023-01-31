@@ -1,1 +1,67 @@
-/* Add screen styles below */
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: #EEEEEE;
+    color: #333333;
+}
+
+a{
+    text-decoration:none;
+    color: #333333;
+}
+
+section{
+    padding: 20px;
+}
+img{
+    width: 100%;
+    border-radius: 30px;
+    transition: opacity ease-in-out 0.2s;
+    margin: 0 auto;
+}
+
+img:hover{
+    opacity: .7;
+}
+
+h1{
+    font-size: 3em;
+    margin-bottom: 0;
+    background-position: center;
+}
+
+main{
+    text-align: center;
+    background: #fff;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.image-gallery {
+    display: flex;
+    
+}
+
+.col{
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.button {
+    border-radius: 12px;
+    padding: 8px;
+    margin: 20px;
+    background-color: white;
+    color: #333333;
+  }
+  
+.button:hover {
+    background-color: #333333;
+    color: white;
+}
+
+.full-cat{
+    background: no-repeat bottom / cover url('img/c6_full.jpg');
+    height: 600px;
+    border-radius: 20px;
+}
